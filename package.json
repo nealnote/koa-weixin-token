@@ -1,9 +1,13 @@
 {
   "name": "koa-weixin-token",
   "description": "weixin token services for koa",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/nealnote/koa-weixin-token",
   "bugs": "https://github.com/nealnote/koa-weixin-token/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nealnote/koa-weixin-token.git"
+  },
   "keywords": [
     "koa",
     "weixin",
