@@ -1,0 +1,37 @@
+{
+  "name": "koa-weixin-token",
+  "description": "weixin token services for koa",
+  "version": "0.0.1",
+  "keywords": [
+    "koa",
+    "weixin",
+    "wechat",
+    "token"
+  ],
+  "author": {
+    "name": "nealnote",
+    "email": "nealnote@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "*",
+    "mocha": "*",
+    "koa": "^1.1.2",
+    "should": "*",
+    "supertest": "*"
+  },
+  "dependencies": {
+    "co-request": "^1.0.0",
+    "debug": "*"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha --require should",
+    "test-travis": "NODE_ENV=test node ./node_modules/.bin/_mocha --require should"
+  }
+}

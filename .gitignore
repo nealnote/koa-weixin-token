@@ -1,0 +1,7 @@
+*.DS_*
+*.idea*
+node_modules
+*.log
+Thumbs.db
+npm-debug.log
+/.idea

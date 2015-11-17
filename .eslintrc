@@ -1,0 +1,5 @@
+rules:
+  strict: 1
+env:
+  node: true
+  es6: true
