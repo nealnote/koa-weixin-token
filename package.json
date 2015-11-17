@@ -2,6 +2,8 @@
   "name": "koa-weixin-token",
   "description": "weixin token services for koa",
   "version": "0.0.1",
+  "homepage": "https://github.com/nealnote/koa-weixin-token",
+  "bugs": "https://github.com/nealnote/koa-weixin-token/issues",
   "keywords": [
     "koa",
     "weixin",
@@ -16,9 +18,7 @@
   "engines": {
     "node": ">= 4"
   },
-  "files": [
-    "index.js"
-  ],
+  "main": "index.js",
   "devDependencies": {
     "eslint": "*",
     "mocha": "*",
