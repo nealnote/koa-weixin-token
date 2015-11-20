@@ -134,7 +134,7 @@ class Weixin extends Emitter {
         expires = ret.expires_in || defaultExpires;
 
         context.ticket = token;
-        context.emit('ticket', ticket, expires);
+        context.emit('ticket', token, expires);
 
       }else{
         setTimer()

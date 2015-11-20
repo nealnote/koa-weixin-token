@@ -2,7 +2,7 @@
 'use strict';
 
 const debug = require('debug')('koa-weixin-token');
-const Weixin = require('./lib/weixin');
+const Weixin = require('./weixin');
 
 exports = module.exports = (opt) => {
   var weixin = new Weixin(opt);
